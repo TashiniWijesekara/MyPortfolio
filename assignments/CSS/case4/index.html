@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS case4</title>
+  <link rel="stylesheet" href="../../../assets/css/normalize.css">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <style>
+
+    section>section:first-child{
+      width: 100vw;
+      height: 10vh;
+      position: sticky;
+      top: 0;
+    }
+
+    section>section:last-child{
+      height: 90vh;
+      width: 100vw;
+    }
+
+    h1{
+      font-size: 100px;
+      color: black;
+      position: relative;
+      top: 45%;
+      margin: 0;
+      text-align: center;
+    }
+
+    h2{
+      font-size: 30px;
+      color: white;
+      margin-top: 0;
+      padding-top: 25px;
+      padding-left: 10px;
+    }
+
+    section:first-child>section:first-child{
+      background-color: red;
+    }
+
+    section:first-child>section:last-child{
+      background-color: white;
+    }
+
+    section:nth-child(2)>section:first-child{
+      background-color: darkblue;
+    }
+
+    section:nth-child(2)>section:last-child{
+      background-color: dodgerblue;
+    }
+
+    section:nth-child(3)>section:first-child{
+      background-color: black;
+    }
+
+    section:nth-child(3)>section:last-child{
+      background-color: gray;
+    }
+
+    section:last-child>section:first-child{
+      background-color: saddlebrown;
+    }
+
+    section:last-child>section:last-child{
+      background-color: darkorange;
+    }
+
+  </style>
+
+</head>
+<body>
+
+<section>
+
+  <section>
+    <h2>Card 1</h2>
+  </section>
+
+  <section>
+    <h1>Hello</h1>
+  </section>
+
+</section>
+
+<section>
+
+  <section>
+    <h2>Card 2</h2>
+  </section>
+
+  <section>
+    <h1>How</h1>
+  </section>
+
+</section>
+
+<section>
+
+  <section>
+    <h2>Card 3</h2>
+  </section>
+
+  <section>
+    <h1>Are</h1>
+  </section>
+
+</section>
+
+<section>
+
+  <section>
+    <h2>Card 4</h2>
+  </section>
+
+  <section>
+    <h1>You ?</h1>
+  </section>
+
+</section>
+
+</body>
+</html>

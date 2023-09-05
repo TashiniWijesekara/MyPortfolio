@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="assests/8.0.1_normalize.css">
+  <title>case</title>
+  <style>
+    body>main{
+      width: 80vw;
+      height: 60vh;
+      border: 2px solid black;
+    }
+    body>main>section{
+      width: 60vw;
+      height: 40vh;
+      border: 2px solid black;
+      margin-top: 5px;
+      position: relative;
+    }
+    body>main>section>section{
+      width: 40vw;
+      height: 20vh;
+      border: 2px solid black;
+      margin-top: 5px;
+      position: relative;
+    }
+    body>main>section>div{
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background: mediumpurple;
+      position: absolute;
+      right: 0;
+      top: 0;
+
+    }
+
+    body>main>section>section>div{
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background: mediumpurple;
+    }
+
+  </style>
+</head>
+<body>
+<main>
+  <section>
+    <div></div>
+    <section>
+      <div></div>
+    </section>
+
+  </section>
+</main>
+</body>
+</html>

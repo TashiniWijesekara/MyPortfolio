@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body>section{
+      position: relative;
+      border: 1px solid black;
+      top: 10px;
+      width: 1500px;
+      height: 700px;
+    }
+    body>section>section{
+      position: relative;
+      border: 1px solid black;
+      left: 200px;
+      width: 1000px;
+      height: 600px;
+      top: 50px;
+    }
+    body>section>div{
+      position: absolute;
+      background-color: red;
+      border-radius: 100%;
+      margin: auto;
+      height: 100px;
+      width: 100px;
+      right: 0;
+      top: 0;
+    }
+    body>section>section>div{
+      position: absolute;
+      background-color: red;
+      border-radius: 100%;
+      margin: auto;
+      height: 100px;
+      width: 100px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <div></div>
+  <section>
+    <div></div>
+  </section>
+</section>
+
+</body>
+</html>
