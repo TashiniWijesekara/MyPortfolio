@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>My Port Folio</title>
-    <meta charset="UTF-8">
+
+    <title>My PortFolio</title>
     <link rel="icon" href="icon12.png">
     <meta name="keywords" content="ijse,GDSE,HTML,NUMBER ONE,SOFTWARE ENGINEER">
     <meta name="description" content="Fronted Developer" >
     <meta name="owner" content="Tashi" >
     <meta name="auther" content="Tashini Wijesekara">
-    <meta name="theme-color" content="black">
-    <link rel="stylesheet"href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+
+    <link rel="stylesheet"href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/assests/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/education.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+
 
 </head>
 
@@ -36,14 +46,12 @@
     <section id="home">
 
         <section>
-            <h2>Hi,</h2>
+            <h1>Hi,</h1>
             <h2>I'm Tashini wijeskara</h2>
-            <article>I'm a Frontend Developer</article>
+            <h3>I'm a Frontend Developer</h3>
+            <img alt ="Tashi Pic" id="logo" src="assets/images/home pic.png" >
+
             <button>Hire Me</button>
-            <br> <br>
-            <aside>
-                <img src="assets/images/home pic.png" alt="logo" width="240px" height="320px">
-            </aside> <br>
 
         </section>
 
@@ -58,9 +66,15 @@
                 </ul>
 
                 <aside>
-                    <a href="#email">email</a>
-                    <a href="#whtsp">Whatsapp</a>
+                    <a href="mailto:tashiniwijesekara@gmail.com" target="_blank">
+                        <i class="fas fa-envelope-square"></i></a>
+                    <a href="mailto:tashiniwijesekara@gmail.com" target="_blank">
+                        <p>tashiniwijesekara@gmail.com</p></a>
+                    <a href="tel:+94713577646" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+                    <a href="tel:+94713577646" target="_blank"><p>+94713577646</p></a>
+
                 </aside>
+
             </address>
 
     </section>
@@ -91,15 +105,14 @@
             </ul>
          <br>
         <aside>
-            <img src="assets/59a0cef3164df791e8b01b92e7d8c9eb.webp" alt="logo" width="220px" height="320px">
+            <img src="assets/images/about pic.png" alt="logo" width="380px" height="300px">
         </aside>
     </section>
 
 <!--    Education Page-->
     <section id="Education">
-        <section>
+
             <h2>Education</h2>
-        </section>
         <aside></aside>
         <p>G/Vidyaraja National School <br>
                     (2008-2021)</p>
@@ -107,6 +120,12 @@
         <aside></aside>
         <p>IJSE-Institute of Software Engineering <br>
                     (2022-Present)</p>
+
+        <section class="line"></section>
+        <section>
+            <div></div>
+            <div></div>
+        </section>
     </section>
 
 <!--    Skills Page-->
@@ -132,57 +151,84 @@
 <!--    Project Page-->
     <section id="Project">
         <h2>Project</h2>
-        <div>
-            <h3>connect-four-game-assignment</h3>
-            <aside></aside>
-        </div>
-        <div>
-            <h3>ClothShop Management System</h3>
-            <aside></aside>
-        </div>
-        <div>
-            <h3>Chat Application</h3>
-            <aside></aside>
-        </div>
-        <a href="#">View All</a>
+        <a href="" target="_blank">
+            <figure><img alt="image"  src="">
+                <figcaption> MOBILE</figcaption>
+
+            </figure>
+        </a>
+        <a href="" target="_blank">
+            <figure><img alt="image"  src="assets/images/java%20pic.png">
+                <figcaption>JAVA</figcaption>
+
+            </figure>
+        </a>
+        <a href="" >
+            <figure><img alt="image" src="assets/images/web%20pic.png">
+                <figcaption>WEB</figcaption>
+            </figure>
+        </a>
+
+        <!--        <div>-->
+<!--            <h3>connect-four-game-assignment</h3>-->
+<!--            <aside></aside>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h3>ClothShop Management System</h3>-->
+<!--            <aside></aside>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h3>Chat Application</h3>-->
+<!--            <aside></aside>-->
+<!--        </div>-->
+<!--        <a href="#">View All</a>-->
     </section>
     <br>
-<!--    Assignment Page-->
-    <section id="Assignment">
-        <h1>Assignment</h1>
-        <table border="0">
-            <tr>
-                <td>
-                    <div>
-                        <aside></aside>
-                        <a href="#assignment1"><center><h3>Assignment 1</h3></center></a>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <aside></aside>
-                        <a href="#assignment2"><center><h3>Assignment 2</h3></center></a>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <aside></aside>
-                        <a href="#assignment3"><center><h3>Assignment 3</h3></center></a>
-                    </div>
-                </td>
+<!--&lt;!&ndash;    Assignment Page&ndash;&gt;-->
+<!--    <section id="Assignment">-->
+<!--        <h1>Assignment</h1>-->
+<!--        <table border="0">-->
+<!--            <tr>-->
+<!--                <td>-->
+<!--                    <div>-->
+<!--                        <aside></aside>-->
+<!--                        <a href="#assignment1"><center><h3>Assignment 1</h3></center></a>-->
+<!--                    </div>-->
+<!--                </td>-->
+<!--                <td>-->
+<!--                    <div>-->
+<!--                        <aside></aside>-->
+<!--                        <a href="#assignment2"><center><h3>Assignment 2</h3></center></a>-->
+<!--                    </div>-->
+<!--                </td>-->
+<!--                <td>-->
+<!--                    <div>-->
+<!--                        <aside></aside>-->
+<!--                        <a href="#assignment3"><center><h3>Assignment 3</h3></center></a>-->
+<!--                    </div>-->
+<!--                </td>-->
 
-            </tr>
-        </table>
-                <a href="#all"><center><b>View All</b></center></a>
+<!--            </tr>-->
+<!--        </table>-->
+<!--                <a href="#all"><center><b>View All</b></center></a>-->
 
-    </section>
-            <br>
+<!--    </section>-->
+<!--            <br>-->
+
+
+
+
 <!--    Gallery Page-->
     <section>
         <h2>Gallery</h2>
-        <div></div>
-        <div></div>
-        <div></div>
+
+        <img alt="image" src="assets/images/leigh1.png">
+        <img alt="image" src="">
+        <img alt="image" src="">
+
+        <!--        <div></div>-->
+<!--        <div></div>-->
+<!--        <div></div>-->
     </section>
 
 </main>
@@ -191,18 +237,42 @@
 <footer id = "Contact">
     <h1>Contact</h1>
     <address>
-        <table border="0">
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+       <ul>
+           <li><i class="fas fa-street-view"></i></li>
+           <li><i class="fas fa-envelope-square"></i></li>
+           <li><i class="fab fa-whatsapp-square"></i></li>
+       </ul>
+
+        <ul>
+            <li>Samaragiri,Thawalama,Galle</li>
+            <li><a href="mailto:tashiniwijesekara@gmail.com">tashiniwijesekara@gmail.com</a></li>
+            <li><a href="tel:+94713577646">+94713577646</a></li>
+        </ul>
     </address>
 
+    <aside>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li><a href="https://www.facebook.com/" target="_blank"></a><i class="fab fa-facebook-square"></i></li>
+            <li><a href="https://www.instagram.com/" target="_blank"></a><i class="fab fa-instagram-square"></i></li>
+        </ul>
+    </aside>
+
+    <aside>
+        <form action="https://mail.google.com/">
+            <label>Name</label>
+            <input id="name" type="text">
+            <label>email</label>
+            <input id="email" type="text">
+
+
+
+
+        </form>
+
+    </aside>
 
 </footer>
 

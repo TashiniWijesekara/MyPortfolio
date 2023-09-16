@@ -1,0 +1,255 @@
+@media all and (max-width: 426px){
+    #about{
+        /*background-color: #2b2c2f;*/
+        background-color: #ffffff;
+
+    }
+
+    #about h3{
+        color: #565656;
+
+    }
+    #about>img{
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        width: 47%;
+    }
+
+    #about>ul img{
+        height: 3vh;
+    }
+
+    #about li{
+        font-size: 0.6em;
+        font-weight: bolder;
+    }
+
+    #about>ul{
+        height: 25vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        top: 28%;
+    }
+
+
+    #about>ul:nth-child(4){
+        right: 45%;
+    }
+    #about ul:nth-child(5){
+        right: 2%;
+    }
+
+    #about>button{
+        position: absolute;
+        top: 4%;
+        right: 2%;
+        color: white;
+        font-weight: bolder;
+        height: 4vh;
+        width: 22vw;
+        background-color: #656565;
+        border-radius: 8px;
+        cursor: pointer;
+        border-color: #fdfbfb;
+        font-size: 0.6em;
+
+
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 768px){
+    #about{
+        background-color: #ffffff;
+
+    }
+
+    #about h3{
+        color: #565656;
+
+    }
+    #about>img{
+        position: absolute;
+        top: 14%;
+        left: 0;
+        width: 40%;
+        right: 0;
+        margin: auto;
+    }
+
+    #about>ul img{
+        height: 6vh;
+    }
+
+    #about li{
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+
+    #about>ul{
+        height: 37vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        top: 55%;
+    }
+
+
+    #about>ul:nth-child(4){
+        left: 30%;
+    }
+    #about ul:nth-child(5){
+        right: 14%;
+    }
+
+    #about>button{
+        position: absolute;
+        top: 10%;
+        right: 3%;
+        color: white;
+        font-weight: bolder;
+        height: 6vh;
+        width: 16vw;
+        background-color: #656565;
+        border-radius: 8px;
+        cursor: pointer;
+        border-color: #fdfbfb;
+
+
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    #about{
+
+        background-color: #ffffff;
+
+    }
+
+    #about h3{
+        color: #565656;
+
+    }
+    #about>img{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        width: 40%;
+    }
+
+    #about>ul img{
+        height: 8vh;
+    }
+
+    #about li{
+        font-size: 2em;
+        font-weight: bolder;
+    }
+
+    #about>ul{
+        height: 55vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        top: 28%;
+    }
+
+
+    #about>ul:nth-child(4){
+        right: 46%;
+    }
+    #about ul:nth-child(5){
+        right: 2%;
+    }
+
+    #about>button{
+        position: absolute;
+        top: 10%;
+        right: 2%;
+        color: white;
+        font-weight: bolder;
+        height: 6vh;
+        width: 14vw;
+        background-color: #656565;
+        border-radius: 8px;
+        cursor: pointer;
+        border-color: #fdfbfb;
+    }
+}
+
+@media all and (min-width: 1440px){
+    #about{
+        background-color: #ffffff;
+
+    }
+
+    #about h3{
+        color: #565656;
+
+    }
+    #about>img{
+        position: absolute;
+        top: 22%;
+        left: 5%;
+        width: 40%;
+
+        animation-name: imgAnimate;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes imgAnimate {
+        0%{
+            width: 40%;
+        }
+        100%{
+            width: 41%;
+        }
+    }
+    #about>ul img{
+        height: 8vh;
+    }
+
+    #about li{
+        font-size: 2em;
+        font-weight: bolder;
+    }
+
+    #about>ul{
+        height: 55vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        position: absolute;
+        top: 28%;
+    }
+
+
+    #about>ul:nth-child(4){
+        right: 41%;
+    }
+    #about ul:nth-child(5){
+        right: 8%;
+    }
+
+    #about>button{
+        position:absolute;
+        top:6%;
+        right:2%;
+        color: white;
+        font-weight: bolder;
+        height: 6vh;
+        width: 10vw;
+        background-color: #656565;
+        border-radius: 8px;
+        cursor: pointer;
+        border-color: #fdfbfb;
+
+
+    }
+}

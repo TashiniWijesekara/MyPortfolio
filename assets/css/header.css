@@ -1,0 +1,147 @@
+@media all and (max-width: 426px){
+    header {
+        width: 100%;
+        height: 6vh;
+        background-color: #000000;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+
+    header>nav{
+        height: max-content;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        margin: auto;
+    }
+    header li{
+        font-size: 0.7em;
+    }
+
+    header a{
+        color: white;
+    }
+    header ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header a:hover {
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 768px){
+    header {
+        width: 100%;
+        height: 10vh;
+        background-color: #000000;
+        position:fixed;
+        top: 0;
+        z-index: 2;
+    }
+
+    header>nav{
+        position: absolute;
+        bottom: 30%;
+        right: 2%;
+    }
+    header li{
+        font-size: 1em;
+    }
+
+    header a{
+        color: white;
+    }
+    header ul{
+        width: 60vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header a:hover {
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        width: 100%;
+        height: 10vh;
+        background-color: #000000;
+        position:fixed;
+        top: 0;
+        z-index: 2;
+    }
+
+    header>nav{
+        position: absolute;
+        bottom: 30%;
+        right: 2%;
+    }
+    header li{
+        font-size: 1.2em;
+    }
+
+    header a{
+        color: white;
+    }
+    header ul{
+        width: 52vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header a:hover {
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+
+    }
+}
+
+@media all and (min-width: 1440px) {
+    header {
+        width: 100%;
+        height: 10vh;
+        background-color: #000000;
+        position:fixed;
+        top: 0;
+        z-index: 2;
+    }
+
+    header>nav{
+        position: absolute;
+        bottom: 20%;
+        right: 2%;
+    }
+    header li{
+        font-size: 1.2em;
+    }
+
+    header a{
+        color: white;
+    }
+    header ul{
+        width: 38vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header a:hover {
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+
+    }
+}
