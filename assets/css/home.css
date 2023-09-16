@@ -435,10 +435,11 @@
     #home button{
         font-size: 1em;
         position: absolute;
-        background-color: black;
-        width:7vw;
+        background-color: white;
+        width:6.5vw;
         height: 5vh;
-        color: white;
+        color:black;
+        /*font-weight: bolder;*/
         border-radius: 8px;
         border: 1px solid #acacac;
         left: 10%;
