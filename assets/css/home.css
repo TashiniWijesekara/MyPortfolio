@@ -326,7 +326,7 @@
 
         background-color: black;
         /*page background height */
-        height: 89vh;
+        height: 80vh;
         width: 100%;
         position: relative;
 
@@ -341,8 +341,7 @@
 
         /*End bar,SocialMedia*/
     #home>address>ul{
-        width: 30vw;
-        top: 20%;
+        width: 18vw;
         left: 2%;
     }
 
@@ -364,7 +363,7 @@
 
     #home p{
         position: relative;
-        top: 30%;
+        top: 35%;
     }
 
     #home a, #home li{
@@ -390,7 +389,7 @@
         font-size: 5em;
         font-weight: bolder;
 
-        top:15%;
+        top:20%;
         left: 10%;
     }
     /*2nd one is name*/
@@ -405,7 +404,7 @@
     #home h3{
         font-size: 2.2em;
         font-weight: lighter;
-        top: 48%;
+        top: 50%;
         left: 10%;
     }
 
@@ -443,7 +442,7 @@
         border-radius: 8px;
         border: 1px solid #acacac;
         left: 10%;
-        top: 62%;
+        top: 60%;
     }
 
     @keyframes breathe {
