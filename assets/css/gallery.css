@@ -1,0 +1,150 @@
+@media all and (min-width: 1440px) {
+    #gallery > h3 {
+        color: #000000;
+        font-size: 55px;
+        top: 10% ;
+    }
+    h3{
+        color: black;
+        font-size: 55px;
+        top: 10% ;
+    }
+
+        /*all img*/
+    #gallery > img {
+        position: absolute;
+        /*border: 1px solid #090808;*/
+        /*border-radius: 10px;*/
+        height: 59vh;
+        width: 31vw;
+        top: 22%;
+    }
+
+    /*Blck & whte pic */
+    #gallery > img:nth-child(4) {
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 62vh;
+        width: 26vw;
+
+    }
+     /*yellow pic*/
+    #gallery > img:nth-child(3) {
+
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        right: 15vw;
+        height: 52vh;
+        width: 22vw;
+
+
+    }
+    /*shadow pic */
+    #gallery > img:nth-child(2) {
+
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        left: 15vw;
+        height: 52vh;
+        width: 22vw;
+
+    }
+
+
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #gallery > h3 {
+        color: #000000;
+    }
+
+    #gallery > img {
+        position: absolute;
+        border: 10px solid #ffffff;
+        border-radius: 61px;
+        height: 59vh;
+        width: 31vw;
+    }
+
+    #gallery > img:nth-child(3) {
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 67vh;
+        width: 36vw;
+
+    }
+
+    #gallery > img:nth-child(2) {
+
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        right: 5vw;
+
+    }
+
+    #gallery > img:nth-child(1) {
+
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        left: 5vw;
+
+    }
+
+
+}
+
+@media all and (max-width: 426px) {
+    #gallery > h3 {
+        color: #000000;
+    }
+
+    #gallery > img {
+        position: absolute;
+        border: 2px solid #ffffff;
+        border-radius: 10px;
+        height: 23vh;
+        width: 28vw;
+    }
+
+    #gallery > img:nth-child(3) {
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 30vh;
+        width: 37vw;
+
+    }
+
+    #gallery > img:nth-child(2) {
+
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        right: 5vw;
+
+    }
+
+    #gallery > img:nth-child(1) {
+
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        left: 5vw;
+
+    }
+
+}

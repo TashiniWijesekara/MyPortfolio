@@ -1,0 +1,313 @@
+@media all and (max-width: 426px) {
+    #skills {
+        background-color: white;
+    }
+
+    #skills h3 {
+        color: #777777;
+    }
+
+    #skills h4 {
+        width: 17vh;
+        background-color: black;
+        position: absolute;
+        font-size: 1em;
+        color: #fcfcfc;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    figure {
+        width: max-content;
+    }
+
+    #skills > section:nth-child(2) > h4 {
+        top: 9vh;
+
+    }
+
+    #skills > section:nth-child(3) > h4 {
+        top: 27vh;
+
+    }
+
+    .skillList {
+        width: 75vw;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    #skills > section:nth-child(2) > ul {
+        top: 15vh;
+    }
+
+    #skills > section:nth-child(3) > ul {
+        top: 34vh;
+    }
+
+    #skills img {
+        width: 4vh;
+        height: 5vh;
+    }
+
+    #skills figcaption {
+
+        padding-top: 0;
+        font-size: 0.6em;
+        color: #acacac;
+        font-weight: bolder;
+    }
+
+    #skills figcaption:hover {
+        text-decoration: underline;
+    }
+
+    #skills i {
+        position: absolute;
+        cursor: pointer;
+        color: #5b5b5b;
+    }
+
+    #skills > section:nth-child(2) > i:nth-child(4) {
+        top: 18vh;
+        right: 5vw;
+    }
+
+    #skills > section:nth-child(3) > i:nth-child(4) {
+        top: 36vh;
+        right: 5vw;
+    }
+
+    #skills > section:nth-child(2) > i:nth-child(2) {
+        top: 18vh;
+        left: 5vw;
+    }
+
+    #skills > section:nth-child(3) > i:nth-child(2) {
+        top: 36vh;
+        left: 5vw;
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 768px){
+    #skills h4 {
+        width: 27vh;
+        background-color: black;
+        position: absolute;
+        font-size: 2em;
+        color: #ffffff;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    #skills {
+
+        background-color: white;
+    }
+
+    #skills h3 {
+        color: #777777;
+    }
+
+    #skills h4 {
+        width: 28vh;
+        background-color: black;
+        position: absolute;
+        font-size: 2em;
+        color: #ffffff;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    figure {
+        width: max-content;
+    }
+
+    #skills > section:nth-child(2) > h4 {
+        top: 15vh;
+
+    }
+
+    #skills > section:nth-child(3) > h4 {
+        top: 52vh;
+
+    }
+
+    .skillList {
+        width: 75vw;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    #skills > section:nth-child(2) > ul {
+        top: 28vh;
+    }
+
+    #skills > section:nth-child(3) > ul {
+        top: 65vh;
+    }
+
+    #skills img {
+        width: 11vh;
+        height: 11vh;
+    }
+
+    #skills figcaption {
+        padding-top: 3vh;
+        font-size: 1em;
+        color: #acacac;
+        font-weight: bolder;
+    }
+
+    #skills figcaption:hover {
+        text-decoration: underline;
+    }
+
+    #skills i {
+        position: absolute;
+        cursor: pointer;
+        color: #5b5b5b;
+    }
+
+    #skills > section:nth-child(2) > i:nth-child(4) {
+        top: 32vh;
+        right: 5vw;
+    }
+
+    #skills > section:nth-child(3) > i:nth-child(4) {
+        top: 67vh;
+        right: 5vw;
+    }
+
+    #skills > section:nth-child(2) > i:nth-child(2) {
+        top: 31vh;
+        left: 5vw;
+    }
+
+    #skills > section:nth-child(3) > i:nth-child(2) {
+        top: 67vh;
+        left: 5vw;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    #skills {
+        background-color: white;
+    }
+
+    #skills h3 {
+        color: black;
+        font-size: 55px;
+        top: 10% ;
+    }
+
+    #skills h4 {
+        width: 25vh;
+        position: absolute;
+        font-size: 2em;
+        color: gray;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    figure {
+        width: max-content;
+    }
+
+    #skills > section:nth-child(2) > h4 {
+        top: 15vh;
+
+    }
+
+    #skills > section:nth-child(3) > h4 {
+        top: 52vh;
+
+    }
+
+    .skillList {
+        width: 75vw;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    #skills > section:nth-child(2) > ul {
+        top: 28vh;
+    }
+
+    #skills > section:nth-child(3) > ul {
+        top: 65vh;
+    }
+
+    #skills img {
+        width: 11vh;
+        height: 11vh;
+    }
+
+    #skills figcaption {
+        padding-top: 3vh;
+        font-size: 1em;
+        color: #555454;
+        font-weight: bolder;
+    }
+
+    #skills figcaption:hover {
+        text-decoration: underline;
+    }
+
+    #skills i {
+        position: absolute;
+        cursor: pointer;
+        color: #5b5b5b;
+    }
+
+    #skills > section:nth-child(2) > i:nth-child(4) {
+        top: 32vh;
+        right: 5vw;
+    }
+
+    #skills > section:nth-child(3) > i:nth-child(4) {
+        top: 67vh;
+        right: 5vw;
+    }
+
+    #skills > section:nth-child(2) > i:nth-child(2) {
+        top: 31vh;
+        left: 5vw;
+    }
+
+    #skills > section:nth-child(3) > i:nth-child(2) {
+        top: 67vh;
+        left: 5vw;
+    }
+}

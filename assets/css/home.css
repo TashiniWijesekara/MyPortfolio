@@ -386,15 +386,15 @@
 
     }
     #home h1{
-        font-size: 5em;
+        font-size: 6em;
         font-weight: bolder;
 
-        top:20%;
+        top:18%;
         left: 10%;
     }
     /*2nd one is name*/
     #home h2{
-        font-size: 3em;
+        font-size: 4em;
         font-weight: bolder;
 
         top:38%;
@@ -404,16 +404,16 @@
     #home h3{
         font-size: 2.2em;
         font-weight: lighter;
-        top: 50%;
+        top: 52%;
         left: 10%;
     }
 
     /*home pic */
     #logo{
         position: absolute;
-        width: 20%;
+        width: 20.5%;
         left: 52%;
-        top: 33%;
+        top: 30%;
         right: 0;
         bottom: 0;
         margin: auto;
@@ -438,11 +438,11 @@
         width:6.5vw;
         height: 5vh;
         color:black;
-        /*font-weight: bolder;*/
+        font-weight: bolder;
         border-radius: 8px;
         border: 1px solid #acacac;
         left: 10%;
-        top: 60%;
+        top: 62%;
     }
 
     @keyframes breathe {

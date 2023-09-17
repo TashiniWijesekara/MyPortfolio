@@ -193,38 +193,39 @@
         top: 10% ;
 
     }
+    /*purple pic*/
     #about>img{
         position: absolute;
         top: 26%;
         left: 55%;
         width: 35%;
 
-        /*animation-name: imgAnimate;*/
-        /*animation-duration: 2s;*/
-        /*animation-direction: alternate;*/
-        /*animation-iteration-count: infinite;*/
+        animation-name: imgAnimate;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
     }
 
     @keyframes imgAnimate {
         0%{
-            width: 40%;
+            width: 34%;
         }
         100%{
-            width: 41%;
+            width: 35%;
         }
     }
     /*icon*/
     #about>ul img{
-        height: 6vh;
+        height: 5vh;
     }
-    /*#about>ul img:nth-child(4){*/
-    /*    height: 10vh;*/
-    /*}*/
+    #about>ul img:nth-child(6){
+        height: 10vh;
+    }
 
 
     /*about details*/
     #about li{
-        font-size: 1.8em;
+        font-size: 1.6em;
         font-weight: bolder;
     }
 
@@ -234,16 +235,16 @@
         justify-content: space-around;
         flex-direction: column;
         position: absolute;
-        top: 28%;
+        top: 25%;
     }
 
      /*icon*/
     #about>ul:nth-child(4){
-        right: 85%;
+        right: 82%;
     }
     /*about details*/
     #about ul:nth-child(5){
-        right: 45%;
+        right: 46%;
     }
 
     #about>button{

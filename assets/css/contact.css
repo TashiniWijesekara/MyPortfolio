@@ -1,0 +1,527 @@
+@media all and (max-width: 426px) {
+    footer {
+        background-color: black;
+        z-index: 0;
+    }
+
+    footer > h3 {
+        color: #B8B8B8;
+    }
+
+    footer  i {
+        font-size: 1.5em;
+    }
+    footer>aside:nth-child(4){
+        visibility: hidden;
+    }
+
+    footer > aside li {
+        color: #C4C4C4;
+    }
+
+    footer > aside li:hover {
+        color: white;
+    }
+
+    footer > address {
+        position: absolute;
+        top: 11vh;
+        left: 13vw;
+        width: max-content;
+        height: max-content;
+
+    }
+
+    footer > address > ul:first-child {
+        color: #C4C4C4;
+        height: 20vh;
+    }
+
+    footer > address > ul:nth-child(2) > li, footer a {
+        color: #C4C4C4;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 0.9em;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    footer ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer > address > ul:nth-child(2) {
+        height: 20vh;
+        top: 0;
+        left: 10vw;
+    }
+
+    footer > aside:nth-child(3) {
+        position: absolute;
+        top: 9vh;
+        right: 16vw;
+    }
+
+    footer > aside:nth-child(3) > ul {
+        flex-direction: column;
+        height:25vh;
+    }
+
+
+    footer > small {
+        color: #c4c4c4;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: 5vh;
+    }
+
+    footer > section {
+        visibility: hidden;
+
+    }
+
+    footer label {
+
+        font-weight: bolder;
+    }
+}
+@media all and (min-width: 426px) and (max-width: 768px){
+    footer {
+        background-color: black;
+        z-index: 0;
+    }
+
+    footer > h3 {
+        color: #B8B8B8;
+    }
+
+    footer > i {
+        font-size: 3em;
+    }
+
+
+    footer > aside li {
+        color: #C4C4C4;
+    }
+
+    footer > aside li:hover {
+        color: white;
+    }
+
+    footer > address {
+        position: absolute;
+        top: 20vh;
+        left: 5vw;
+        width: max-content;
+        height: max-content;
+    }
+
+    footer > address > ul:first-child {
+        color: #C4C4C4;
+    }
+
+    footer > address > ul:nth-child(2) > li, footer a {
+        color: #C4C4C4;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 1.1em;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    footer ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer > address > ul:first-child {
+        height: 36vh;
+    }
+
+    footer > address > ul:nth-child(2) {
+        height: 33vh;
+        top: 0;
+        left: 10vw;
+    }
+
+    footer > aside:nth-child(3) {
+        position: absolute;
+        top: 67vh;
+        left: 18vw;
+    }
+
+    footer > aside:nth-child(3) > ul {
+        flex-direction: row;
+        width: 25vw;
+    }
+
+    footer > aside:nth-child(4) > form {
+        position: absolute;
+        top: 12vh;
+        left: 57vw;
+        font-size: 1.5em;
+        color: #c4c4c4;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 55vh;
+    }
+
+    footer input {
+        border-radius: 10px;
+        width: 35vw;
+
+    }
+
+    footer form > button {
+        background-color: black;
+        color: white;
+        border: 2px solid #c4c4c4;
+        border-radius: 10px;
+        position: absolute;
+        bottom: -5vh;
+        right: 0;
+        height: 5vh;
+        width: 12vh;
+        font-weight: bolder;
+        font-size: 0.6em;
+    }
+
+    footer form > button:hover {
+
+        background-color: silver;
+
+    }
+
+    footer input:nth-child(8) {
+        height: 12vh;
+    }
+
+    footer > small {
+        color: #c4c4c4;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: 6vh;
+    }
+
+    footer > section {
+
+        background-color: #383838;
+        position: absolute;
+        transform: rotate(90deg);
+        width: 65vh;
+        height: 0.2vh;
+        top: 42vh;
+        left: 23vw;
+    }
+
+    footer label {
+
+        font-weight: bolder;
+    }
+}
+@media all and (min-width: 769px) and (max-width: 1024px){
+    footer {
+        background-color: black;
+        z-index: 0;
+    }
+
+    footer > h3 {
+        color: #B8B8B8;
+    }
+
+    footer > i {
+        font-size: 3em;
+    }
+
+
+    footer > aside li {
+        color: #C4C4C4;
+    }
+
+    footer > aside li:hover {
+        color: white;
+    }
+
+    footer > address {
+        position: absolute;
+        top: 20vh;
+        left: 5vw;
+        width: max-content;
+        height: max-content;
+    }
+
+    footer > address > ul:first-child {
+        color: #C4C4C4;
+    }
+
+    footer > address > ul:nth-child(2) > li, footer a {
+        color: #C4C4C4;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 1.1em;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    footer ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer > address > ul:first-child {
+        height: 36vh;
+    }
+
+    footer > address > ul:nth-child(2) {
+        height: 33vh;
+        top: 0;
+        left: 10vw;
+    }
+
+    footer > aside:nth-child(3) {
+        position: absolute;
+        top: 67vh;
+        left: 14vw;
+    }
+
+    footer > aside:nth-child(3) > ul {
+        flex-direction: row;
+        width: 23vw;
+    }
+
+    footer > aside:nth-child(4) > form {
+        position: absolute;
+        top: 12vh;
+        left: 57vw;
+        font-size: 1.5em;
+        color: #c4c4c4;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 55vh;
+    }
+
+    footer input {
+        border-radius: 10px;
+        width: 35vw;
+
+    }
+
+    footer form > button {
+        background-color: black;
+        color: white;
+        border: 2px solid #c4c4c4;
+        border-radius: 10px;
+        position: absolute;
+        bottom: -5vh;
+        right: 0;
+        height: 5vh;
+        width: 12vh;
+        font-weight: bolder;
+        font-size: 0.6em;
+    }
+
+    footer form > button:hover {
+
+        background-color: silver;
+
+    }
+
+    footer input:nth-child(8) {
+        height: 12vh;
+    }
+
+    footer > small {
+        color: #c4c4c4;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: 6vh;
+    }
+
+    footer > section {
+        background-color: #383838;
+        position: absolute;
+        transform: rotate(90deg);
+        width: 65vh;
+        height: 0.2vh;
+        top: 42vh;
+        left: 33vw;
+
+    }
+
+    footer label {
+
+        font-weight: bolder;
+    }
+}
+@media all and (min-width: 1440px) {
+    footer {
+        background-color: black;
+        z-index: 0;
+    }
+
+    footer > h3 {
+        color:white;
+        font-size: 55px;
+        top: 5% ;
+    }
+    /*line*/
+    footer >address> section {
+        position: absolute;
+        width: 30vw;
+        display: flex;
+        transform: rotate(-90deg);
+        justify-content: space-around;
+        left: 26vw;
+    }
+
+
+    .line {
+        height: 0.5vh;
+        background-color: white;
+        border-radius: 2px;
+        top: 20vh;
+
+    }
+
+    footer > i {
+        font-size: 3em;
+    }
+
+
+    footer > aside li {
+        color: #C4C4C4;
+    }
+
+    footer > aside li:hover {
+        color: white;
+    }
+
+    footer > address {
+        position: absolute;
+        top: 20vh;
+        left: 5vw;
+        width: max-content;
+        height: max-content;
+    }
+
+    footer > address > ul:first-child {
+        color: #C4C4C4;
+    }
+
+    /*details*/
+    footer > address > ul:nth-child(2) > li, footer a {
+        color: white;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 1.3em;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    footer ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    footer > address > ul:first-child {
+        height: 36vh;
+    }
+
+    /*details*/
+    footer > address > ul:nth-child(2) {
+        height: 33vh;
+        top: 0;
+        left: 15vw;
+    }
+
+    footer > aside:nth-child(3) {
+        position: absolute;
+        top: 67vh;
+        left: 18vw;
+    }
+
+    footer > aside:nth-child(3) > ul {
+        flex-direction: row;
+        width: 16vw;
+    }
+
+    footer > aside:nth-child(4) > form {
+        position: absolute;
+        top: 12vh;
+        left: 57vw;
+        font-size: 1.5em;
+        color: #c4c4c4;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 55vh;
+    }
+
+    footer input {
+        border-radius: 12px;
+        width: 30vw;
+        height: 5vh;
+
+    }
+
+    footer form > button {
+        background-color: black;
+        color: white;
+        border: 2px solid #c4c4c4;
+        border-radius: 10px;
+        position: absolute;
+        bottom: -5vh;
+        right: 0;
+        height: 5vh;
+        width: 12vh;
+        /*font-weight: bolder;*/
+        font-size: 0.8em;
+    }
+
+    footer form > button:hover {
+
+        background-color: silver;
+
+    }
+
+    /*messege*/
+    footer input:nth-child(8) {
+        height: 12vh;
+    }
+
+
+    footer > section {
+        background-color: #383838;
+        position: absolute;
+        transform: rotate(90deg);
+        width: 65vh;
+        height: 0.2vh;
+        top: 42vh;
+        left: 33vw;
+
+    }
+
+
+}
