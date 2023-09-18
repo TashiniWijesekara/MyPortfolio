@@ -445,8 +445,10 @@
         justify-content: space-between;
     }
 
+        /*details icon*/
     footer > address > ul:first-child {
-        height: 36vh;
+        height: 33.5vh;
+        left: 19vh;
     }
 
     /*details*/
@@ -456,10 +458,12 @@
         left: 15vw;
     }
 
+      /*socialMedia icons*/
     footer > aside:nth-child(3) {
         position: absolute;
-        top: 67vh;
-        left: 18vw;
+        top: 74vh;
+        left: 12vw;
+
     }
 
     footer > aside:nth-child(3) > ul {
