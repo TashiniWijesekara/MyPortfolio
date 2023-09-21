@@ -218,21 +218,9 @@
 
     #education > img {
         position: absolute;
-        animation-name:wave;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
         transform: rotate(0deg);
     }
-    @keyframes wave {
-        0%{
-            transform: rotate(-5deg);
-        }
-        100%{
-            transform: rotate(5deg);
-        }
 
-    }
     #education div {
         height: 3vh;
         width: 3vh;
