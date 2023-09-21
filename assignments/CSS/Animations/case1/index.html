@@ -10,11 +10,13 @@
             border: 1px solid black;
             border-radius: 15px;
             background-color: blue;
+            overflow: hidden;
 
             animation-name: anima;
             animation-duration: 5s;
             animation-iteration-count: infinite;
             position: relative;
+            animation-direction: alternate;  //reverse
             left: 0;
         }
         @keyframes anima {
@@ -33,13 +35,13 @@
             50%{
                background-color: #c10a0a;
                 left: 1325px;
-                top: 570px;
+                top: 600px;
                 transform: rotate(360deg);
             }
             75%{
                 background-color: #ba2174;
                 left: 20px;
-                top: 570px;
+                top: 600px;
                 transform: rotate(180deg);
             }
             100%{
