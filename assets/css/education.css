@@ -1,6 +1,6 @@
 @media all and (max-width: 426px){
     #education {
-        background-color: #c4c4c4;
+        background: linear-gradient(to left, #2a2929,lightgray);
     }
 
     #education > h3 {
@@ -57,7 +57,7 @@
 @media all and (min-width: 426px) and (max-width: 768px){
     #education {
         /*background-color:#717171;*/
-        background-color: #c4c4c4;
+        background: linear-gradient(to left, #2a2929,lightgray);
     }
 
     #education > h3 {
@@ -149,7 +149,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     #education {
-        background-color: #c4c4c4;
+        background: linear-gradient(to left, #2a2929,lightgray);
     }
 
     #education > h3 {
@@ -240,7 +240,8 @@
 
 @media all and (min-width: 1440px) {
     #education {
-        background: linear-gradient(to left,darkgray,lightgray);
+        background: linear-gradient(to left, #2a2929,lightgray);
+        /*background: linear-gradient(to left,darkgray,lightgray);*/
     }
 
     #education > h3 {
