@@ -240,7 +240,7 @@
 
 @media all and (min-width: 1440px) {
     #education {
-        background: linear-gradient(to left, #2a2929,lightgray);
+        background: linear-gradient(to left, #2a2929,lightgray,whitesmoke);
         /*background: linear-gradient(to left,darkgray,lightgray);*/
     }
 
