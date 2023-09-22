@@ -201,6 +201,7 @@
     #about p{
         color: #262525;
         font-size: 25px;
+        font-family: Calibri;
         top: 55%;
     }
     /*purple pic*/
@@ -231,8 +232,9 @@
 
     /*about details*/
     #about li{
-        font-size: 1.5em;
+        font-size: 1.6em;
         font-weight: bolder;
+        font-family: Calibri;
         color: rgba(0, 0, 0, 0.94);
     }
     /*about phar */
@@ -260,7 +262,7 @@
     }
     /*about details*/
     #about>ul:nth-child(6) {
-        right: 48%;
+        right: 50%;
     }
 
 

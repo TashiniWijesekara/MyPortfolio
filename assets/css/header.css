@@ -134,7 +134,7 @@
     }
     header ul{
         /*nav bar words athr space*/
-        width: 42vw;
+        width: 44vw;
         display: flex;
         justify-content: space-between;
     }
