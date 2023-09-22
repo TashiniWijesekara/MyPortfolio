@@ -29,29 +29,30 @@
         position: absolute;
         text-align: center;
     }
-    /*other*/
-    #assignment > a:nth-child(5) > figure {
-        top: 13vh;
-        bottom: 0;
-        left: 75%;
-        margin: auto;
+    /*!*other*!*/
+    /*#assignment > a:nth-child(5) > figure {*/
+    /*    top: 13vh;*/
+    /*    bottom: 0;*/
+    /*    left: 75%;*/
+    /*    margin: auto;*/
 
+    /*}*/
 
-    }
     /*Animation*/
     #assignment > a:nth-child(4) > figure {
         top: 13vh;
         bottom: 0;
-        left: 54%;
+        right: 18%;
+        /*left: 54%;*/
         margin: auto;
-
 
     }
     /*Trans*/
     #assignment > a:nth-child(3) > figure {
         top: 13vh;
         bottom: 0;
-        right: 53%;
+        /*right: 53%;*/
+        right: 43%;
         margin: auto;
 
     }
@@ -59,7 +60,8 @@
     #assignment > a:nth-child(2) > figure {
         top: 13vh;
         bottom: 0;
-        right: 75%;
+        /*right: 75%;*/
+        right: 70%;
         margin: auto;
 
     }
