@@ -183,7 +183,7 @@
 
 @media all and (min-width: 1440px){
     #about{
-        background-color: #ffffff;
+        background-color: white;
 
     }
 
@@ -193,20 +193,30 @@
         top: 10% ;
 
     }
+    #about h2{
+        color: #ac75e5;
+        font-size: 30px;
+        top: 50% ;
+    }
+    #about p{
+        color: #262525;
+        font-size: 25px;
+        top: 55%;
+    }
     /*purple pic*/
     #about>img{
         position: absolute;
-        top: 26%;
+        top: 28%;
         left: 55%;
         width: 35%;
 
-        animation-name: imgAnimate;
+        animation-name: anima;
         animation-duration: 2s;
         animation-direction: alternate;
         animation-iteration-count: infinite;
     }
 
-    @keyframes imgAnimate {
+    @keyframes anima {
         0%{
             width: 34%;
         }
@@ -218,34 +228,42 @@
     #about>ul img{
         height: 5vh;
     }
-    #about>ul img:nth-child(6){
-        height: 10vh;
-    }
-
 
     /*about details*/
     #about li{
-        font-size: 1.6em;
+        font-size: 1.5em;
         font-weight: bolder;
+        color: #473d40;
     }
-
+    /*about phar */
+    #about>article{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 28%;
+        left: 5%;
+    }
+    /*about list & icon*/
     #about>ul{
-        height: 55vh;
+        height: 30vh;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         position: absolute;
-        top: 25%;
+        top: 55%;
+
     }
 
-     /*icon*/
-    #about>ul:nth-child(4){
+    /*icon*/
+    #about>ul:nth-child(5) {
         right: 82%;
     }
     /*about details*/
-    #about ul:nth-child(5){
-        right: 46%;
+    #about>ul:nth-child(6) {
+        right: 48%;
     }
+
+
 
     #about>button{
         position:absolute;
