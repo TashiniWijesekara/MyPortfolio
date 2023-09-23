@@ -1,7 +1,7 @@
 @media all and (max-width: 426px){
     header {
         width: 100%;
-        height: 11vh;
+        height: 6vh;
         background-color: #000000;
         position:fixed;
         top: 0;
@@ -9,12 +9,16 @@
     }
 
     header>nav{
+        height: max-content;
         position: absolute;
-        bottom: 20%;
-        right: 3%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 40%;
+        margin: auto;
     }
     header li{
-        font-size: 1.2em;
+        font-size: 0.5em;
     }
 
     header a{
@@ -22,9 +26,9 @@
     }
     header ul{
         /*nav bar words athr space*/
-        width: 44vw;
+        width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     header a:hover {
@@ -35,11 +39,11 @@
     }
     header h1{
         color: #9252BBFF;
-        font-size: 2em;
+        font-size: 1em;
     }
     header h2{
         color: white;
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     header section>ul{
