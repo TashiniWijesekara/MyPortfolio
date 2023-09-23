@@ -1,102 +1,47 @@
 @media all and (max-width: 426px){
     #education {
-        background: linear-gradient(to left, #2a2929,lightgray);
+        background: linear-gradient(to left, #2a2929,lightgray,whitesmoke);
+        /*background: linear-gradient(to left,darkgray,lightgray);*/
     }
 
     #education > h3 {
         color: #2a2a2a;
+        font-size: 55px;
+        top: 10% ;
     }
 
+    /*scl,uni text*/
     #education > p {
         font-weight: bolder;
-        color: white;
-        font-size: 0.8em;
+        color: #2b2b2b;
+        font-size: 1.5em;
         width: max-content;
         position: absolute;
         text-align: right;
     }
 
+    /* school txt */
     #education > p:nth-child(2) {
-        top: 38vh;
-        right: 5vw;
+        top: 70vh;
+        left: 24vw;
     }
 
+    /* uni txt */
     #education > p:nth-child(3) {
-        top: 27vh;
-        left: 7vw;
+        top: 57vh;
+        left: 50vw;
     }
 
-    #education > p:nth-child(4) {
-        top: 13vh;
-        right: 5vw
-    }
-
-    #education > section {
-        visibility: hidden;
-    }
-
-    #school{
-        height: 12vh;
-        top: 24vh;
-        right: 12vw;
-    }
-
-    #uni {
-        height: 17vh;
-        top: 9vh;
-        left: 7vw;
-    }
-
-    #education > img {
-        position: absolute;
-    }
-
-
-}
-
-@media all and (min-width: 426px) and (max-width: 768px){
-    #education {
-        /*background-color:#717171;*/
-        background: linear-gradient(to left, #2a2929,lightgray);
-    }
-
-    #education > h3 {
-        color: #2a2a2a;
-    }
-
-    #education > p {
-        font-weight: bolder;
-        color: white;
-        font-size: 0.7em;
-        width: max-content;
-        position: absolute;
-        text-align: right;
-    }
-
-    #education > p:nth-child(2) {
-        top: 71vh;
-        left: 26vw;
-    }
-
-    #education > p:nth-child(3) {
-        top: 58vh;
-        left: 52vw;
-    }
-
-    #education > p:nth-child(4) {
-        top: 45vh;
-        left: 78vw;
-    }
-
+    /*line*/
     #education > section {
         position: absolute;
-        width: 83vw;
+        width: 60vw;
         display: flex;
-        transform: rotate(
-                -21deg
-        );
+        transform: rotate(-12deg);
         justify-content: space-around;
-        left: 8vw;
+        left: 20vw;
+        top: 60%;
+        border-radius: 4px;
     }
 
 
@@ -104,7 +49,6 @@
         height: 1vh;
         background-color: white;
         border-radius: 4px;
-        top: 57vh;
 
     }
 
@@ -112,17 +56,17 @@
         top: 56vh;
     }
 
-
+    /*img*/
     #school {
-        height: 30vh;
-        top: 25vh;
-        left: 46vw;
+        height: 25vh;
+        top: 30vh;
+        left: 29vw;
     }
 
     #uni {
-        height: 35vh;
-        top: 6vh;
-        left: 73vw;
+        height: 24vh;
+        top: 16vh;
+        left: 58vw;
     }
 
 
@@ -130,11 +74,11 @@
         position: absolute;
     }
 
+    /*red ,blue R*/
     #education div {
         height: 3vh;
         width: 3vh;
         border-radius: 100%;
-
 
     }
 
@@ -144,49 +88,148 @@
 
     #education > section > div:nth-child(2) {
         background-color: #e50505;
+
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 768px) {
+    #education {
+        background: linear-gradient(to left, #2a2929, lightgray, whitesmoke);
+        /*background: linear-gradient(to left,darkgray,lightgray);*/
+    }
+
+    #education > h3 {
+        color: #2a2a2a;
+        font-size: 55px;
+        top: 10%;
+    }
+
+    /*scl,uni text*/
+    #education > p {
+        font-weight: bolder;
+        color: #2b2b2b;
+        font-size: 1.5em;
+        width: max-content;
+        position: absolute;
+        text-align: right;
+    }
+
+    /* school txt */
+    #education > p:nth-child(2) {
+        top: 70vh;
+        left: 24vw;
+    }
+
+    /* uni txt */
+    #education > p:nth-child(3) {
+        top: 57vh;
+        left: 50vw;
+    }
+
+    /*line*/
+    #education > section {
+        position: absolute;
+        width: 60vw;
+        display: flex;
+        transform: rotate(-12deg);
+        justify-content: space-around;
+        left: 20vw;
+        top: 60%;
+        border-radius: 4px;
+    }
+
+
+    .line {
+        height: 1vh;
+        background-color: white;
+        border-radius: 4px;
+
+    }
+
+    #education > section:nth-child(9) {
+        top: 56vh;
+    }
+
+    /*img*/
+    #school {
+        height: 25vh;
+        top: 30vh;
+        left: 29vw;
+    }
+
+    #uni {
+        height: 24vh;
+        top: 16vh;
+        left: 58vw;
+    }
+
+
+    #education > img {
+        position: absolute;
+    }
+
+    /*red ,blue R*/
+    #education div {
+        height: 3vh;
+        width: 3vh;
+        border-radius: 100%;
+
+    }
+
+    #education > section > div:nth-child(1) {
+        background-color: darkblue;
+    }
+
+    #education > section > div:nth-child(2) {
+        background-color: #e50505;
+
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     #education {
-        background: linear-gradient(to left, #2a2929,lightgray);
+        background: linear-gradient(to left, #2a2929,lightgray,whitesmoke);
+        /*background: linear-gradient(to left,darkgray,lightgray);*/
     }
 
     #education > h3 {
         color: #2a2a2a;
+        font-size: 55px;
+        top: 10% ;
     }
 
+    /*scl,uni text*/
     #education > p {
         font-weight: bolder;
-        color: white;
-        font-size: 1em;
+        color: #2b2b2b;
+        font-size: 1.5em;
         width: max-content;
         position: absolute;
         text-align: right;
     }
 
+    /* school txt */
     #education > p:nth-child(2) {
-        top: 71vh;
-        left: 26vw;
+        top: 70vh;
+        left: 24vw;
     }
 
+    /* uni txt */
     #education > p:nth-child(3) {
-        top: 58vh;
-        left: 52vw;
+        top: 57vh;
+        left: 50vw;
     }
 
-    #education > p:nth-child(4) {
-        top: 45vh;
-        left: 76vw;
-    }
-
+    /*line*/
     #education > section {
         position: absolute;
-        width: 83vw;
+        width: 60vw;
         display: flex;
-        transform: rotate(-27deg);
+        transform: rotate(-12deg);
         justify-content: space-around;
-        left: 6vw;
+        left: 20vw;
+        top: 60%;
+        border-radius: 4px;
     }
 
 
@@ -194,7 +237,6 @@
         height: 1vh;
         background-color: white;
         border-radius: 4px;
-        top: 57vh;
 
     }
 
@@ -202,30 +244,29 @@
         top: 56vh;
     }
 
-
+    /*img*/
     #school {
-        height: 30vh;
-        top: 25vh;
-        left: 43vw;
+        height: 25vh;
+        top: 30vh;
+        left: 29vw;
     }
 
     #uni {
-        height: 35vh;
-        top: 5vh;
-        left: 69vw;
+        height: 24vh;
+        top: 16vh;
+        left: 58vw;
     }
 
 
     #education > img {
         position: absolute;
-        transform: rotate(0deg);
     }
 
+    /*red ,blue R*/
     #education div {
         height: 3vh;
         width: 3vh;
         border-radius: 100%;
-
 
     }
 
@@ -235,6 +276,7 @@
 
     #education > section > div:nth-child(2) {
         background-color: #e50505;
+
     }
 }
 
