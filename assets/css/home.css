@@ -1,52 +1,106 @@
 
 @media all and (max-width: 426px){
-    #home{
-        height: 40vh;
-    }
     #home > section {
+
         background-color: black;
-        height: 40vh;
+        /*page background height */
+        height: 80vh;
         width: 100%;
         position: relative;
 
     }
 
     #home > address {
-        visibility: hidden;
+        background-color:#2b2c2f;
+        background-color: #232323;
+        height: 10vh;
+        position: relative;
     }
 
+    /*End bar,SocialMedia*/
+    #home>address>ul{
+        width: 18vw;
+        left: 2%;
+    }
 
-    #home h1,#home h2{
+    /*sosialMedia icon*/
+    i{
+        font-size: 3em;
+    }
+
+    #home aside, #home ul{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 10%;
+
+    }
+    #home aside{
+        width: 28vw;
+        right: 2%;
+    }
+
+    #home p{
+        position: relative;
+        top: 35%;
+    }
+
+    #home a, #home li{
+        font-weight: bolder;
+        cursor: pointer;
+        font-style: normal;
+        color: #8a8a8a;
+
+    }
+
+    #home a:hover,#home li:hover{
+        color: #c4c4c4;
+        text-decoration: underline;
+    }
+
+    #home h1,#home h2,#home h3{
         color: white;
         position: absolute;
         left: 5%;
 
     }
     #home h1{
-        font-size: 1.6em;
+        font-size: 4em;
         font-weight: bolder;
-        top:15%;
-    }
 
+        top:23%;
+        left: 10%;
+    }
+    /*2nd one is name*/
     #home h2{
-        font-size: 1em;
-        font-weight: normal;
-        top: 32%;
+        font-size: 4em;
+        font-weight: bolder;
+
+        top:38%;
+        left: 10%;
     }
 
-    #home>section>h2:nth-child(3){
-        visibility: hidden;
+    #home h3{
+        font-size: 2.2em;
+        font-weight: lighter;
+        top: 52%;
+        left: 10%;
     }
 
+    /*home pic */
     #logo{
         position: absolute;
+        width: 20.5%;
+        left: 52%;
+        top: 30%;
         right: 0;
         bottom: 0;
-        width: 30%;
-        height: max-content;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
+        margin: auto;
+
+        /*animation-name: breathe;*/
+        /*animation-duration: 1s;*/
+        /*animation-iteration-count: infinite;*/
+        /*animation-direction: alternate;*/
     }
 
     #home button:hover{
@@ -54,21 +108,24 @@
         color: black;
         border: 2px solid #ffffff;
     }
+
+    /*hire me button*/
     #home button{
+        font-size: 1em;
         position: absolute;
-        background-color: black;
-        width:32vw;
-        height: 6vh;
-        color: white;
+        background-color: #ececec;
+        width:6.5vw;
+        height: 5vh;
+        color:black;
+        font-weight: bolder;
         border-radius: 8px;
         border: 1px solid #acacac;
-        left: 5%;
-        top: 64%;
+        left: 10%;
+        top: 62%;
     }
 
     @keyframes breathe {
-        0%,30%{
-
+        0%{
             top: 3%;
         }
         33%,60%{
@@ -82,11 +139,155 @@
     }
 }
 
-@media all and (min-width: 426px) and (max-width: 768px){
+@media all and (min-width: 426px) and (max-width: 768px) {
 
     #home > section {
 
         background-color: black;
+        /*page background height */
+        height: 80vh;
+        width: 100%;
+        position: relative;
+
+    }
+
+    #home > address {
+        background-color: #2b2c2f;
+        background-color: #232323;
+        height: 10vh;
+        position: relative;
+    }
+
+    /*End bar,SocialMedia*/
+    #home > address > ul {
+        width: 18vw;
+        left: 2%;
+    }
+
+    /*sosialMedia icon*/
+    i {
+        font-size: 3em;
+    }
+
+    #home aside, #home ul {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 10%;
+
+    }
+
+    #home aside {
+        width: 28vw;
+        right: 2%;
+    }
+
+    #home p {
+        position: relative;
+        top: 35%;
+    }
+
+    #home a, #home li {
+        font-weight: bolder;
+        cursor: pointer;
+        font-style: normal;
+        color: #8a8a8a;
+
+    }
+
+    #home a:hover, #home li:hover {
+        color: #c4c4c4;
+        text-decoration: underline;
+    }
+
+    #home h1, #home h2, #home h3 {
+        color: white;
+        position: absolute;
+        left: 5%;
+
+    }
+
+    #home h1 {
+        font-size: 4em;
+        font-weight: bolder;
+
+        top: 23%;
+        left: 10%;
+    }
+
+    /*2nd one is name*/
+    #home h2 {
+        font-size: 4em;
+        font-weight: bolder;
+
+        top: 38%;
+        left: 10%;
+    }
+
+    #home h3 {
+        font-size: 2.2em;
+        font-weight: lighter;
+        top: 52%;
+        left: 10%;
+    }
+
+    /*home pic */
+    #logo {
+        position: absolute;
+        width: 20.5%;
+        left: 52%;
+        top: 30%;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+        /*animation-name: breathe;*/
+        /*animation-duration: 1s;*/
+        /*animation-iteration-count: infinite;*/
+        /*animation-direction: alternate;*/
+    }
+
+    #home button:hover {
+        background-color: #cdcdcd;
+        color: black;
+        border: 2px solid #ffffff;
+    }
+
+    /*hire me button*/
+    #home button {
+        font-size: 1em;
+        position: absolute;
+        background-color: #ececec;
+        width: 6.5vw;
+        height: 5vh;
+        color: black;
+        font-weight: bolder;
+        border-radius: 8px;
+        border: 1px solid #acacac;
+        left: 10%;
+        top: 62%;
+    }
+
+    @keyframes breathe {
+        0% {
+            top: 3%;
+        }
+        33%, 60% {
+
+            top: 2.9%;
+        }
+        63%, 100% {
+
+            top: 2.8%;
+        }
+    }
+}
+@media all and (min-width: 769px) and (max-width: 1024px){
+
+    #home > section {
+
+        background-color: black;
+        /*page background height */
         height: 80vh;
         width: 100%;
         position: relative;
@@ -95,17 +296,20 @@
 
     #home > address {
         background-color:#2b2c2f;
+        background-color: #232323;
         height: 10vh;
         position: relative;
     }
 
+    /*End bar,SocialMedia*/
     #home>address>ul{
-        width: 25vw;
+        width: 18vw;
         left: 2%;
     }
 
+    /*sosialMedia icon*/
     i{
-        font-size: 2.5em;
+        font-size: 3em;
     }
 
     #home aside, #home ul{
@@ -116,13 +320,13 @@
 
     }
     #home aside{
-        width: 48vw;
+        width: 28vw;
         right: 2%;
     }
 
     #home p{
         position: relative;
-        top: 30%;
+        top: 35%;
     }
 
     #home a, #home li{
@@ -138,34 +342,49 @@
         text-decoration: underline;
     }
 
-    #home h1,#home h2{
+    #home h1,#home h2,#home h3{
         color: white;
         position: absolute;
         left: 5%;
 
     }
     #home h1{
-        font-size: 3.8em;
+        font-size: 4em;
         font-weight: bolder;
-        top: 8%;
-    }
 
+        top:23%;
+        left: 10%;
+    }
+    /*2nd one is name*/
     #home h2{
-        font-size: 3em;
-        font-weight: lighter;
-        top: 27%;
+        font-size: 4em;
+        font-weight: bolder;
+
+        top:38%;
+        left: 10%;
     }
 
+    #home h3{
+        font-size: 2.2em;
+        font-weight: lighter;
+        top: 52%;
+        left: 10%;
+    }
+
+    /*home pic */
     #logo{
         position: absolute;
-        right: 2%;
-        top: 36%;
-        width: 36%;
+        width: 20.5%;
+        left: 52%;
+        top: 30%;
+        right: 0;
+        bottom: 0;
+        margin: auto;
 
-        animation-name: breathe;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
+        /*animation-name: breathe;*/
+        /*animation-duration: 1s;*/
+        /*animation-iteration-count: infinite;*/
+        /*animation-direction: alternate;*/
     }
 
     #home button:hover{
@@ -173,149 +392,33 @@
         color: black;
         border: 2px solid #ffffff;
     }
+
+    /*hire me button*/
     #home button{
+        font-size: 1em;
         position: absolute;
-        background-color: black;
-        width: 14vw;
-        height: 6vh;
-        color: white;
+        background-color: #ececec;
+        width:6.5vw;
+        height: 5vh;
+        color:black;
+        font-weight: bolder;
         border-radius: 8px;
         border: 1px solid #acacac;
-        left: 5%;
-        top: 45%;
+        left: 10%;
+        top: 62%;
     }
 
     @keyframes breathe {
         0%{
-            top: 36%;
+            top: 3%;
         }
         33%,60%{
 
-            top: 35.9%;
+            top: 2.9%;
         }
         63%,100%{
 
-            top: 35.8%;
-        }
-    }
-}
-
-@media all and (min-width: 769px) and (max-width: 1024px){
-
-    #home > section {
-
-        background-color: black;
-        /*page background height */
-        height: 90vh;
-        width: 100%;
-        position: relative;
-
-    }
-
-    #home > address {
-        background-color:#2b2c2f;
-        height: 10vh;
-        position: relative;
-    }
-
-    #home>address>ul{
-        width: 24vw;
-        left: 2%;
-    }
-
-    i{
-        font-size: 3em;
-    }
-
-    #home aside, #home ul{
-        display: flex;
-        justify-content: space-between;
-        position: absolute;
-        bottom: 10%;
-
-    }
-    #home aside{
-        width: 40vw;
-        right: 2%;
-    }
-
-    #home p{
-        position: relative;
-        top: 30%;
-    }
-
-    #home a, #home li{
-        font-weight: bolder;
-        cursor: pointer;
-        font-style: normal;
-        color: #8a8a8a;
-
-    }
-
-    #home a:hover,#home li:hover{
-        color: #c4c4c4;
-        text-decoration: underline;
-    }
-
-    #home h1,#home h2{
-        color: white;
-        position: absolute;
-        left: 5%;
-
-    }
-    #home h1{
-        font-size: 4.8em;
-        font-weight: bolder;
-
-        top:12%;
-    }
-
-    #home h2{
-        font-size: 3em;
-        font-weight: lighter;
-        top: 35%;
-    }
-
-    #logo{
-        position: absolute;
-        right: 1%;
-        top: 33%;
-        width: 28%;
-
-        animation-name: breathe;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-    }
-
-    #home button:hover{
-        background-color: white;
-        color: black;
-        border: 2px solid #ffffff;
-    }
-    #home button{
-        position: absolute;
-        background-color: black;
-        width:10vw;
-        height: 6vh;
-        color: white;
-        border-radius: 8px;
-        border: 1px solid #acacac;
-        left: 5%;
-        top: 53%;
-    }
-
-    @keyframes breathe {
-        0%{
-            top: 33%;
-        }
-        33%,60%{
-
-            top: 32.9%;
-        }
-        63%,100%{
-
-            top: 32.8%;
+            top: 2.8%;
         }
     }
 }
