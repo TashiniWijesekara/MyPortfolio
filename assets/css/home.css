@@ -1,10 +1,13 @@
 
 @media all and (max-width: 426px){
+    #home{
+        height: 40vh;
+    }
     #home > section {
 
         background-color: black;
         /*page background height */
-        height: 80vh;
+        height: 40vh;
         width: 100%;
         position: relative;
 
@@ -13,7 +16,7 @@
     #home > address {
         background-color:#2b2c2f;
         background-color: #232323;
-        height: 10vh;
+        height: 0vh;
         position: relative;
     }
 
@@ -65,42 +68,37 @@
 
     }
     #home h1{
-        font-size: 4em;
+        font-size: 1.3em;
         font-weight: bolder;
 
-        top:23%;
-        left: 10%;
+        top:24%;
+        left: 5%;
     }
     /*2nd one is name*/
     #home h2{
-        font-size: 4em;
+        font-size: 1em;
         font-weight: bolder;
 
-        top:38%;
-        left: 10%;
+        top:36%;
+        left: 5%;
     }
 
     #home h3{
-        font-size: 2.2em;
+        font-size: 0.8em;
         font-weight: lighter;
-        top: 52%;
-        left: 10%;
+        top: 45%;
+        left: 5%;
     }
 
     /*home pic */
     #logo{
         position: absolute;
-        width: 20.5%;
-        left: 52%;
-        top: 30%;
         right: 0;
         bottom: 0;
-        margin: auto;
+        width: 30%;
+        left: 58%;
+        height: max-content;
 
-        /*animation-name: breathe;*/
-        /*animation-duration: 1s;*/
-        /*animation-iteration-count: infinite;*/
-        /*animation-direction: alternate;*/
     }
 
     #home button:hover{
@@ -111,17 +109,17 @@
 
     /*hire me button*/
     #home button{
-        font-size: 1em;
+        font-size: 0.5em;
         position: absolute;
         background-color: #ececec;
-        width:6.5vw;
-        height: 5vh;
+        width:12vw;
+        height: 2.5vh;
         color:black;
         font-weight: bolder;
         border-radius: 8px;
         border: 1px solid #acacac;
-        left: 10%;
-        top: 62%;
+        left: 5%;
+        top: 56%;
     }
 
     @keyframes breathe {
