@@ -3,54 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>case 2</title>
-  <style>
-      body{
-          margin: 0;
-      }
-    section{
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        overflow: hidden;
-        position: relative;
+    <link rel="stylesheet" href="../../../../assets/css/8.0.1_normalize.css">
 
-    }
+<!--    Moon Animations-->
+    <style>
+        body{
+            background-color: #15213b;
+            margin: 0;
+        }
+        div:nth-child(1){
+            background-color: #d2a6a5;
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
 
-    img {
-        position: relative;
-        flex-shrink: 0;
-        height: 100vh;
-        width: 100vw;
-        animation-name: anima;
-        animation-direction: alternate-reverse;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
+            animation-name: anima;
+            animation-duration: 4s;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
 
-    }
-    @keyframes anima {
-        0% {
-            left: 0vw;
         }
-        50% {
-            left: -100vw;
+
+        div:nth-child(2){
+            background-color: #15213b;
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
         }
-        75% {
-            left: -200vw;
+        @keyframes anima {
+            0% {
+                left: 70px;
+                bottom: 70px;
+            }
+            50% {
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+
+            }
+            100% {
+                right: 70px;
+                top: 70px;
+            }
         }
-        100% {
-            left: -300vw;
-        }
-    }
-  </style>
+
+    </style>
 </head>
-<body>
-      <section>
-          <img src="pink.jpg">
-          <img src="pic4.jpg">
-          <img src="jbwhite.png">
-          <img src="picPln.png">
-      </section>
 
-
-</body>
+    <body>
+    <div></div>
+    <div></div>
+    </body>
 </html>
