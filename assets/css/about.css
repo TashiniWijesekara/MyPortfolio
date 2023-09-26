@@ -1,31 +1,32 @@
 @media all and (max-width: 426px){
     #about{
         background-color: white;
-
     }
 
     #about h3{
         color: #565656;
-        font-size: 55px;
+        font-size: 25px;
         top: 10% ;
+        left: 5%;
 
     }
     #about h2{
         color: #ac75e5;
-        font-size: 30px;
-        top: 50% ;
+        font-size: 18px;
+        top: 54% ;
+        left: 5%;
     }
     #about p{
         color: #262525;
-        font-size: 25px;
+        font-size: 10px;
         font-family: Calibri;
-        top: 55%;
+        top: 48%;
     }
     /*purple pic*/
     #about>img{
         position: absolute;
-        top: 28%;
-        left: 55%;
+        top: 58%;
+        left: 58%;
         width: 35%;
 
         animation-name: anima;
@@ -44,12 +45,12 @@
     }
     /*icon*/
     #about>ul img{
-        height: 5vh;
+        height: 2vh;
     }
 
     /*about details*/
     #about li{
-        font-size: 1.6em;
+        font-size: 0.6em;
         font-weight: bolder;
         font-family: Calibri;
         color: rgba(0, 0, 0, 0.94);
@@ -59,12 +60,12 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 28%;
+        top: 26%;
         left: 5%;
     }
     /*about list & icon*/
     #about>ul{
-        height: 30vh;
+        height: 16vh;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -75,11 +76,11 @@
 
     /*icon*/
     #about>ul:nth-child(5) {
-        right: 82%;
+        right: 84%;
     }
     /*about details*/
     #about>ul:nth-child(6) {
-        right: 50%;
+        right: 25%;
     }
 
 
@@ -90,13 +91,13 @@
         right:5%;
         color: white;
         font-weight: bolder;
-        height: 6vh;
-        width: 10vw;
+        height: 4vh;
+        width: 20vw;
         background-color: #656565;
         border-radius: 8px;
         cursor: pointer;
         border-color: #fdfbfb;
-
+        font-size: 0.6em;
 
     }
 }
