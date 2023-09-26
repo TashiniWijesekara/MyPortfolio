@@ -22,13 +22,14 @@
 
     /*End bar,SocialMedia*/
     #home>address>ul{
-        width: 18vw;
+        width: 10vw;
         left: 2%;
     }
 
     /*sosialMedia icon*/
     i{
-        font-size: 3em;
+        font-size: 1em;
+        width: 5vw;
     }
 
     #home aside, #home ul{
@@ -39,13 +40,14 @@
 
     }
     #home aside{
-        width: 28vw;
-        right: 2%;
+        width: 5vw;
+        right: 48%;
     }
 
     #home p{
+        font-size: 0.3em;
         position: relative;
-        top: 35%;
+        top: 32%;
     }
 
     #home a, #home li{
@@ -94,9 +96,9 @@
     #logo{
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: 6%;
         width: 30%;
-        left: 58%;
+        left: 60%;
         height: max-content;
 
     }
