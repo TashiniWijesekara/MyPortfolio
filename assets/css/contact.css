@@ -25,7 +25,7 @@
         height: 0.2vh;
         background-color: white;
         border-radius: 2px;
-        top: 4vh;
+        top: 5vh;
 
     }
 
@@ -78,19 +78,20 @@
     footer > address > ul:first-child {
         height: 12vh;
         left: 2vh;
+        top: 0.1vh;
     }
 
     /*details*/
     footer > address > ul:nth-child(2) {
         height: 10vh;
-        top: 0;
         left: 10vw;
+        top: 1vh;
     }
 
     /*socialMedia icons*/
     footer > aside:nth-child(3) {
         position: absolute;
-        top: 40vh;
+        top: 35vh;
         left: 12vw;
 
     }
