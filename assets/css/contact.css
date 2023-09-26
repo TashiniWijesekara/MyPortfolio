@@ -5,9 +5,10 @@
     }
 
     footer > h3 {
-        color:white;
-        font-size: 55px;
-        top: 5% ;
+        color: white;
+        font-size: 25px;
+        top: 10% ;
+        left: 5%;
     }
     /*line*/
     footer >address> section {

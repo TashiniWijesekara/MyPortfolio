@@ -8,11 +8,6 @@
         font-size: 55px;
         top: 10% ;
     }
-    h3{
-        color: black;
-        font-size: 55px;
-        top: 10% ;
-    }
 
         /*all img*/
     #gallery > img {
@@ -196,14 +191,10 @@
         background: linear-gradient(to left, #2a2929,lightgray);
     }
     #gallery > h3 {
-        color: #000000;
-        font-size: 55px;
+        color: #2a2a2a;
+        font-size: 25px;
         top: 10% ;
-    }
-    h3{
-        color: black;
-        font-size: 55px;
-        top: 10% ;
+        left: 5%;
     }
 
     /*all img*/
