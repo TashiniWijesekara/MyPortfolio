@@ -1,4 +1,7 @@
 @media all and (max-width: 426px){
+    /*#education{*/
+    /*    height: 40vh;*/
+    /*}*/
     #education {
         background: linear-gradient(to left, #2a2929,lightgray,whitesmoke);
         /*background: linear-gradient(to left,darkgray,lightgray);*/
@@ -15,7 +18,7 @@
     #education > p {
         font-weight: bolder;
         color: #2b2b2b;
-        font-size: 1.5em;
+        font-size: 0.3em;
         width: max-content;
         position: absolute;
         text-align: right;
@@ -23,14 +26,14 @@
 
     /* school txt */
     #education > p:nth-child(2) {
-        top: 70vh;
-        left: 24vw;
+        top: 36vh;
+        left: 18vw;
     }
 
     /* uni txt */
     #education > p:nth-child(3) {
-        top: 57vh;
-        left: 50vw;
+        top: 32vh;
+        left: 45vw;
     }
 
     /*line*/
@@ -41,7 +44,7 @@
         transform: rotate(-12deg);
         justify-content: space-around;
         left: 20vw;
-        top: 60%;
+        top: 65%;
         border-radius: 4px;
     }
 
@@ -59,15 +62,15 @@
 
     /*img*/
     #school {
-        height: 25vh;
-        top: 30vh;
-        left: 29vw;
+        height: 10vh;
+        top: 20vh;
+        left: 23vw;
     }
 
     #uni {
-        height: 24vh;
+        height: 10vh;
         top: 16vh;
-        left: 58vw;
+        left: 54vw;
     }
 
 
@@ -77,8 +80,8 @@
 
     /*red ,blue R*/
     #education div {
-        height: 3vh;
-        width: 3vh;
+        height: 2vh;
+        width: 2vh;
         border-radius: 100%;
 
     }

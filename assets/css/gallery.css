@@ -200,8 +200,6 @@
     /*all img*/
     #gallery > img {
         position: absolute;
-        /*border: 1px solid #090808;*/
-        /*border-radius: 10px;*/
         height: 59vh;
         width: 31vw;
         top: 22%;
@@ -215,8 +213,8 @@
         left: 0;
         right: 0;
         margin: auto;
-        height: 62vh;
-        width: 26vw;
+        height: 23vh;
+        width: 30vw;
 
     }
     /*yellow pic*/
@@ -225,9 +223,9 @@
         bottom: 0;
         top: 0;
         margin: auto;
-        right: 15vw;
-        height: 52vh;
-        width: 22vw;
+        right: 12vw;
+        height: 20vh;
+        width: 32vw;
 
 
     }
@@ -237,9 +235,9 @@
         bottom: 0;
         top: 0;
         margin: auto;
-        left: 15vw;
-        height: 52vh;
-        width: 22vw;
+        left: 12vw;
+        height: 20vh;
+        width: 32vw;
 
     }
 

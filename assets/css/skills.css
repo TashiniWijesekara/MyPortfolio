@@ -13,7 +13,7 @@
     #skills h4 {
         width: 25vh;
         position: absolute;
-        font-size: 2em;
+        font-size: 15px;
         color: gray;
         left: 0;
         right: 0;
@@ -27,12 +27,12 @@
     }
 
     #skills > section:nth-child(2) > h4 {
-        top: 15vh;
+        top: 10vh;
 
     }
 
     #skills > section:nth-child(3) > h4 {
-        top: 52vh;
+        top: 25vh;
 
     }
 
@@ -49,22 +49,22 @@
     }
 
     #skills > section:nth-child(2) > ul {
-        top: 28vh;
+        top: 15vh;
     }
 
     #skills > section:nth-child(3) > ul {
-        top: 65vh;
+        top: 32vh;
     }
 
     #skills img {
-        width: 11vh;
-        height: 11vh;
+        width: 2vh;
+        height: 2vh;
     }
 
     #skills figcaption {
-        padding-top: 3vh;
-        font-size: 1em;
-        color: #555454;
+        padding-top: 2vh;
+        font-size: 0.5em;
+        color: black;
         font-weight: bolder;
     }
 
@@ -79,22 +79,22 @@
     }
 
     #skills > section:nth-child(2) > i:nth-child(4) {
-        top: 32vh;
+        top: 16vh;
         right: 5vw;
     }
 
     #skills > section:nth-child(3) > i:nth-child(4) {
-        top: 67vh;
+        top: 33vh;
         right: 5vw;
     }
 
     #skills > section:nth-child(2) > i:nth-child(2) {
-        top: 31vh;
+        top: 16vh;
         left: 5vw;
     }
 
     #skills > section:nth-child(3) > i:nth-child(2) {
-        top: 67vh;
+        top: 33vh;
         left: 5vw;
     }
 }
@@ -379,7 +379,7 @@
     }
 
     #skills > section:nth-child(2) > i:nth-child(4) {
-        top: 32vh;
+        top: 31vh;
         right: 5vw;
     }
 

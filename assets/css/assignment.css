@@ -14,14 +14,14 @@
     #assignment img {
         /*border: 4px solid black;*/
         width: 15vw;
-        height: 30vh;
+        height: 13vh;
 
     }
 
     #assignment img:hover {
 
         width: 16vw;
-        height:32vh;
+        height:15vh;
         /*filter: blur(0px);*/
     }
 
@@ -41,25 +41,25 @@
 
     /*Animation*/
     #assignment > a:nth-child(4) > figure {
-        top: 13vh;
+        top: 8vh;
         bottom: 0;
-        right: 18%;
+        right: 17%;
         /*left: 54%;*/
         margin: auto;
 
     }
     /*Trans*/
     #assignment > a:nth-child(3) > figure {
-        top: 13vh;
+        top: 8vh;
         bottom: 0;
         /*right: 53%;*/
-        right: 43%;
+        right: 42%;
         margin: auto;
 
     }
     /*css*/
     #assignment > a:nth-child(2) > figure {
-        top: 13vh;
+        top: 8vh;
         bottom: 0;
         /*right: 75%;*/
         right: 70%;
@@ -68,7 +68,7 @@
     }
 
     #assignment figcaption {
-        font-size: 1.5em;
+        font-size: 0.5em;
         color:black;
         font-weight: bolder;
     }
