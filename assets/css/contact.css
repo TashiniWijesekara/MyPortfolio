@@ -13,24 +13,24 @@
     /*line*/
     footer >address> section {
         position: absolute;
-        width: 30vw;
+        width: 34vw;
         display: flex;
         transform: rotate(-90deg);
         justify-content: space-around;
-        left: 26vw;
+        left: 31vw;
     }
 
 
     .line {
-        height: 0.5vh;
+        height: 0.2vh;
         background-color: white;
         border-radius: 2px;
-        top: 20vh;
+        top: 4vh;
 
     }
 
     footer > i {
-        font-size: 3em;
+        font-size: 0.5em;
     }
 
 
@@ -44,7 +44,8 @@
 
     footer > address {
         position: absolute;
-        top: 20vh;
+        margin: auto;
+        top: 15vh;
         left: 5vw;
         width: max-content;
         height: max-content;
@@ -59,7 +60,7 @@
         color: white;
         font-style: normal;
         font-weight: bolder;
-        font-size: 1.3em;
+        font-size: 0.5em;
     }
 
     footer a:hover {
@@ -75,59 +76,59 @@
 
     /*details icon*/
     footer > address > ul:first-child {
-        height: 33.5vh;
-        left: 19vh;
+        height: 12vh;
+        left: 2vh;
     }
 
     /*details*/
     footer > address > ul:nth-child(2) {
-        height: 33vh;
+        height: 10vh;
         top: 0;
-        left: 15vw;
+        left: 10vw;
     }
 
     /*socialMedia icons*/
     footer > aside:nth-child(3) {
         position: absolute;
-        top: 74vh;
+        top: 40vh;
         left: 12vw;
 
     }
 
     footer > aside:nth-child(3) > ul {
         flex-direction: row;
-        width: 16vw;
+        width: 5vw;
     }
 
     footer > aside:nth-child(4) > form {
         position: absolute;
         top: 12vh;
         left: 57vw;
-        font-size: 1.5em;
+        font-size: 0.6em;
         color: #c4c4c4;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        height: 55vh;
+        height: 25vh;
     }
 
     footer input {
         border-radius: 12px;
         width: 30vw;
-        height: 5vh;
+        height: 2.5vh;
 
     }
 
     footer form > button {
         background-color: black;
         color: white;
-        border: 2px solid #c4c4c4;
+        border: 1px solid #c4c4c4;
         border-radius: 10px;
         position: absolute;
         bottom: -5vh;
         right: 0;
-        height: 5vh;
-        width: 12vh;
+        height: 3vh;
+        width: 8vh;
         /*font-weight: bolder;*/
         font-size: 0.8em;
     }
@@ -140,7 +141,7 @@
 
     /*messege*/
     footer input:nth-child(8) {
-        height: 12vh;
+        height: 4vh;
     }
 
 
@@ -148,7 +149,7 @@
         background-color: #3d3b3b;
         position: absolute;
         transform: rotate(90deg);
-        width: 65vh;
+        width: 20vh;
         height: 0.2vh;
         top: 42vh;
         left: 33vw;
@@ -169,7 +170,7 @@
     /*line*/
     footer >address> section {
         position: absolute;
-        width: 30vw;
+        width: 0vw;
         display: flex;
         transform: rotate(-90deg);
         justify-content: space-around;
