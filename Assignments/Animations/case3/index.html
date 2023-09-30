@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 3</title>
+    <link rel="stylesheet" href="../../../assets/css/8.0.1_normalize.css">
+
+  <style>
+      body{
+          margin: 0;
+      }
+    section{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    img {
+        position: relative;
+        flex-shrink: 0;
+        height: 100vh;
+        width: 100vw;
+        animation-name: anima;
+        animation-direction: alternate-reverse;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+    @keyframes anima {
+        0% {
+            left: 0vw;
+        }
+        50% {
+            left: -100vw;
+        }
+        75% {
+            left: -200vw;
+        }
+        100% {
+            left: -300vw;
+        }
+    }
+  </style>
+</head>
+<body>
+      <section>
+          <img src="pink.jpg">
+          <img src="pic4.jpg">
+          <img src="jbwhite.png">
+          <img src="picPln.png">
+      </section>
+
+
+</body>
+</html>

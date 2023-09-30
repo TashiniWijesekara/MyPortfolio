@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 2</title>
+    <link rel="stylesheet" href="../../../assets/css/8.0.1_normalize.css">
+
+<!--    Moon Animations-->
+    <style>
+        body{
+            background-color: #15213b;
+            margin: 0;
+        }
+        div:nth-child(1){
+            background-color: #d2a6a5;
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            animation-name: anima;
+            animation-duration: 4s;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+        }
+
+        div:nth-child(2){
+            background-color: #15213b;
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+        }
+        @keyframes anima {
+            0% {
+                left: 70px;
+                bottom: 70px;
+            }
+            50% {
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
+
+            }
+            100% {
+                right: 70px;
+                top: 70px;
+            }
+        }
+
+    </style>
+</head>
+
+    <body>
+    <div></div>
+    <div></div>
+    </body>
+</html>
