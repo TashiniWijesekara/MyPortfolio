@@ -46,17 +46,60 @@
 </header>
 
 <!--    breadCrumb-->
-
+<section class="container-fluid">
 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="home.html">Home</a></li>
         <li class="breadcrumb-item active" aria-current="page">Orders</li>
     </ol>
 </nav>
+</section>
+
+<!--   details table-->
+
+<main class="container-fluid">
+    <form class="col-4 bg-light"  >
+        <section class="text-center  bg-success">
+            <nav class="nav justify-content-around">
+                <a aria-current="page" class="nav-link link-light">Invoice Details</a>
+            </nav>
+        </section>
+        <div class="row">
+            <div class="mb-2">
+                <label for="exampleFormControlInput1" class="form-label">Order ID</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="OrderId">
+            </div>
+            <div class="mb-2">
+                <label for="exampleFormControlInput1" class="form-label">Date</label>
+                <input type="date" class="form-control" id="exampleFormControlInput2" placeholder="Date">
+            </div>
+        </div>
+
+        <div class=" mb-2">
+            <label for="exampleFormControlInput1" class="form-label">Customer ID</label>
+            <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="CusID">
+        </div>
+
+        <div class=" mb-2">
+            <label for="exampleFormControlInput1" class="form-label">Customer Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Name">
+        </div>
+        <div class=" mb-2">
+            <label for="exampleFormControlInput1" class="form-label">Salary</label>
+            <input type="text" class="form-control" id="exampleFormControlInput5" placeholder="Enter">
+        </div>
+
+        <div class=" mb-2">
+            <label for="exampleFormControlInput1" class="form-label">Address</label>
+            <input type="text" class="form-control" id="exampleFormControlInput6" placeholder="enter">
+        </div>
+
+    </form>
+</main>
 
 <!--    table-->
 
-<section class="mt-4">
+<section class="container-fluid mt-4">
     <table class="table table-bordered table-hover">
         <thead class="text-bg-success">
         <tr >
@@ -78,20 +121,20 @@
             <td>2</td>
             <td>1000</td>
         </tr>
-        <tr>
-            <th scope="row">P002</th>
-            <td>Rathu kekulu 10kg</td>
-            <td>1250</td>
-            <td>1</td>
-            <td>1250</td>
-        </tr>
-        <tr>
-            <th scope="row">P003</th>
-            <td>keeri samba 5kg</td>
-            <td>650</td>
-            <td>2</td>
-            <td>1300</td>
-        </tr>
+<!--        <tr>-->
+<!--            <th scope="row">P002</th>-->
+<!--            <td>Rathu kekulu 10kg</td>-->
+<!--            <td>1250</td>-->
+<!--            <td>1</td>-->
+<!--            <td>1250</td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <th scope="row">P003</th>-->
+<!--            <td>keeri samba 5kg</td>-->
+<!--            <td>650</td>-->
+<!--            <td>2</td>-->
+<!--            <td>1300</td>-->
+<!--        </tr>-->
 
 
         </tbody>
