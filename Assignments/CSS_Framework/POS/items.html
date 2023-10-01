@@ -55,7 +55,54 @@
         <li class="breadcrumb-item active" aria-current="page">Items</li>
     </ol>
 </nav>
+<br>
 
+<main class="container-fluid">
+
+    <!--    Search table-->
+
+    <form class="col-4 bg-light"  >
+        <section class="text-center  bg-success">
+            <nav class="nav justify-content-around">
+                <a aria-current="page" class="nav-link link-light">Item Search</a>
+            </nav>
+        </section><br>
+        <input type="text" class="form-control" placeholder="Input Item Name/Code Here" aria-label="Input ID/Name/Tp Here">
+
+        <br>
+
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-2">
+                    <button type="submit" class="btn btn-success">Search</button>
+                </div>
+                <div class="col-4">
+                    <div class="col-4">
+                        <!--                        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>-->
+                        <!--                        <select class="form-select" id="inlineFormSelectPref"  >-->
+                        <!--                            -->
+                        <!--                            <option value="1">Name</option>-->
+                        <!--                            <option value="2">Price</option>-->
+                        <!--                            <option value="3">Qty</option>-->
+                        <!--                        </select>-->
+
+                        <button type="button" class="btn btn-light btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Name
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Name</a></li>
+                            <li><a class="dropdown-item" href="#">Price</a></li>
+                            <li><a class="dropdown-item" href="#">Qty</a></li>
+                        </ul>
+
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <br>
 <!--    buttons-->
 
 <div class="btn-group" role="group" aria-label="Basic mixed styles example">
@@ -64,6 +111,7 @@
     <button type="button" class="btn btn-danger">Delete</button>
 </div>
 
+    <br>  <br>
 <!--    table-->
 
 <section class="mt-4">
@@ -101,6 +149,8 @@
         </tbody>
     </table>
 </section>
+
+</main>
 
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
