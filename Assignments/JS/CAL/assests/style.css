@@ -19,13 +19,6 @@
     align-items: center;
 }
 
-
-.calculator {
-    background-color: #000000;
-    padding: 20px;
-    border-radius: 15px;
-}
-
 /* * - = + /*/
 .calculator input {
     outline: 0;
@@ -33,10 +26,16 @@
     height: 60px;
     background-color: darkorange;
     font-size: 22px;
-    color: #fff;
+    color: white;
     border-radius: 75px;
     cursor: pointer;
     margin: 10px;
+}
+
+.calculator {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 #display{
