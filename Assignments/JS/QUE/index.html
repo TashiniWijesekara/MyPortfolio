@@ -2,9 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="../../../assets/fontawesome-free-6.4.2-web/css/all.css">
+
+    <title>Que-assignment</title>
+    <style>
+        body{
+            background-color:white;
+        }
+        section>img{
+            height: 30vh;
+            width: 12vw;
+        }
+        body > img {
+            position: absolute;
+            bottom: 25vh;
+            right: 0;
+            top:180px;
+            height: 50vh;
+        }
+        section {
+            width: 75%;
+            top:250px;
+            position: absolute;
+            bottom: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        button {
+            border: none;
+            width: 15vw;
+            height: 8vh;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            color: black;
+            border: 2px solid white;
+        }
+
+    </style>
 </head>
-<body>
+
+    <img alt="image" id="A" src="assests/A.png">
+    <img alt="image" id="B" src="assests/B.png">
+    <img alt="image" id="C" src="assests/C.png">
+    <img alt="image" id="D" src="assests/D.png">
+    <img alt="image" id="E" src="assests/E.png">
+    <img alt="image" id="F" src="assests/F.png">
+</section>
+
+<img alt="image" src="assests/house1.png">
+
+<button id="start" style="background-color: #228B22 ">START</button>
+<button id="end" style="background-color: #DC143C">END</button>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        let timerId;
+
+        function animateQue() {
+            let images = $("section>img");
+            let img1 = images.eq(0).attr('src');
+            let img2 = images.eq(1).attr('src');
+            let img3 = images.eq(2).attr('src');
+            let img4 = images.eq(3).attr('src');
+            let img5 = images.eq(4).attr('src');
+            let img6 = images.eq(5).attr('src');
+
+            images.eq(0).attr('src', img6);
+            images.eq(1).attr('src', img1);
+            images.eq(2).attr('src', img2);
+            images.eq(3).attr('src', img3);
+            images.eq(4).attr('src', img4);
+            images.eq(5).attr('src', img5);
+        }
+
+        $("#start").click(function () {
+            clearInterval(timerId);
+            timerId = setInterval(animateQue, 1200);
+        });
+
+        $("#end").click(function () {
+            clearInterval(timerId);
+        });
+    });
+</script>
+
 
 </body>
 </html>

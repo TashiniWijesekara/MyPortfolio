@@ -276,11 +276,29 @@
 
     /*}*/
 
+    /*JS*/
+    #assignment > a:nth-child(6) > figure {
+        top: 13vh;
+        bottom: 0;
+        right: 4%;
+        /*left: 54%;*/
+        margin: auto;
+
+    }
+    /*CSS_framework*/
+    #assignment > a:nth-child(5) > figure {
+        top: 13vh;
+        bottom: 0;
+        right: 22%;
+        /*left: 54%;*/
+        margin: auto;
+
+    }
     /*Animation*/
     #assignment > a:nth-child(4) > figure {
         top: 13vh;
         bottom: 0;
-        right: 18%;
+        right: 40%;
         /*left: 54%;*/
         margin: auto;
 
@@ -290,7 +308,7 @@
         top: 13vh;
         bottom: 0;
         /*right: 53%;*/
-        right: 43%;
+        right: 60%;
         margin: auto;
 
     }
@@ -299,7 +317,7 @@
         top: 13vh;
         bottom: 0;
         /*right: 75%;*/
-        right: 70%;
+        right: 80%;
         margin: auto;
 
     }
