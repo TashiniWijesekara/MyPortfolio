@@ -2,17 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Que</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link rel="stylesheet" href="../../../assets/fontawesome-free-6.4.2-web/css/all.css">
 
-    <title>Que-assignment</title>
     <style>
         body{
             background-color:white;
-        }
-        section>img{
-            height: 30vh;
-            width: 12vw;
         }
         body > img {
             position: absolute;
@@ -20,10 +16,16 @@
             right: 0;
             top:180px;
             height: 50vh;
+            width:25vw;
         }
+        section>img{
+            height: 30vh;
+            width: 12vw;
+        }
+
         section {
             width: 75%;
-            top:250px;
+            top:280px;
             position: absolute;
             bottom: 10vh;
             display: flex;
@@ -52,21 +54,24 @@
         }
 
     </style>
-</head>
 
-    <img alt="image" id="A" src="assests/A.png">
-    <img alt="image" id="B" src="assests/B.png">
-    <img alt="image" id="C" src="assests/C.png">
-    <img alt="image" id="D" src="assests/D.png">
-    <img alt="image" id="E" src="assests/E.png">
-    <img alt="image" id="F" src="assests/F.png">
+</head>
+<body>
+<section>
+    <img alt="image" id="A" src="assets/images/A.png">
+    <img alt="image" id="B" src="assets/images/B.png">
+    <img alt="image" id="C" src="assets/images/C.png">
+    <img alt="image" id="D" src="assets/images/D.png">
+    <img alt="image" id="E" src="assets/images/E.png">
+    <img alt="image" id="F" src="assets/images/F.png">
 </section>
 
-<img alt="image" src="assests/house1.png">
+<img alt="image" src="assets/images/house1.png">
 
-<button id="start" style="background-color: #228B22 ">START</button>
-<button id="end" style="background-color: #DC143C">END</button>
-<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<button id="start" style="background-color: #0d77d2 ">START</button>
+<button id="end" style="background-color: #f12424">END</button>
+<script src="bootstrap/js/jquery-3.7.1.min.js"></script>
+
 
 <script>
     $(document).ready(function() {
