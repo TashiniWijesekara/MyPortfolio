@@ -250,15 +250,15 @@
 
     #assignment img {
         /*border: 4px solid black;*/
-        width: 15vw;
-        height: 30vh;
+        width: 12vw;
+        height: 28vh;
 
     }
 
     #assignment img:hover {
 
-        width: 16vw;
-        height:32vh;
+        width: 14vw;
+        height:30vh;
         /*filter: blur(0px);*/
     }
 
